@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/codingwithsijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css",
-    "main.js": "/codingwithsijan.github.io/CloudWebapp/static/js/main.f21e5679.js",
+    "main.css": "/codingwithsijan.github.io/CloudWebapp/static/css/main.19b23d89.css",
+    "main.js": "/codingwithsijan.github.io/CloudWebapp/static/js/main.7dc9819c.js",
+    "static/media/background-hero-img.jpg": "/codingwithsijan.github.io/CloudWebapp/static/media/background-hero-img.44527257ee32d74ae878.jpg",
     "index.html": "/codingwithsijan.github.io/CloudWebapp/index.html",
-    "main.9fe0dc08.css.map": "/codingwithsijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css.map",
-    "main.f21e5679.js.map": "/codingwithsijan.github.io/CloudWebapp/static/js/main.f21e5679.js.map"
+    "main.19b23d89.css.map": "/codingwithsijan.github.io/CloudWebapp/static/css/main.19b23d89.css.map",
+    "main.7dc9819c.js.map": "/codingwithsijan.github.io/CloudWebapp/static/js/main.7dc9819c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fe0dc08.css",
-    "static/js/main.f21e5679.js"
+    "static/css/main.19b23d89.css",
+    "static/js/main.7dc9819c.js"
   ]
 }
