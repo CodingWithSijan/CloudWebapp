@@ -1,13 +1,16 @@
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Support from "./components/Support";
+import AllInOne from "./components/AllInOne";
 function App() {
   return (
     <>
-      <Router>
-        <Route path="/">
-          <Navbar />
-        </Route>
-      </Router>
+      <Navbar />
+      <Hero />
+      <About />
+      <Support />
+      <AllInOne />
     </>
   );
 }
