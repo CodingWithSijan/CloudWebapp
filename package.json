@@ -1,5 +1,5 @@
 {
-  "homepage": "codingwithsijan.github.io/CloudWebapp",
+  "homepage": "codingwithsijan.github.io/CloudWebapp/",
   "name": "trialapp",
   "version": "0.1.0",
   "private": false,
@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -19,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
