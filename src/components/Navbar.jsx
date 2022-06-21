@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
@@ -16,11 +16,49 @@ const Navbar = () => {
             <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND.</h1>
             {/* Navbar Menu */}
             <ul className="hidden md:flex">
-              <li>Home</li>
-              <li>About</li>
-              <li>Support</li>
-              <li>Platforms</li>
-              <li>Pricing</li>
+              <Link activeClass="active" to="home" smooth={true} duration={500}>
+                <li>Home</li>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-200}
+              >
+                <li>About</li>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="support"
+                smooth={true}
+                duration={500}
+                offset={-50}
+              >
+                <li>Support</li>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="platforms"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <li>Platforms</li>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="pricing"
+                smooth={true}
+                duration={500}
+                offset={50}
+              >
+                <li>Pricing</li>
+              </Link>
             </ul>
             {/* Navbar Menu */}
           </div>
@@ -46,11 +84,52 @@ const Navbar = () => {
             nav === false ? "hidden" : "absolute bg-zinc-200 w-full px-8 h-auto"
           }
         >
-          <li className="border-b-2 border-zinc-300 w-full py-4">Home</li>
-          <li className="border-b-2 border-zinc-300 w-full py-4">About</li>
-          <li className="border-b-2 border-zinc-300 w-full py-4">Support</li>
-          <li className="border-b-2 border-zinc-300 w-full py-4">Platforms</li>
-          <li className="border-b-2 border-zinc-300 w-full py-4">Pricing</li>
+          <Link activeClass="active" to="home" smooth={true} duration={500}>
+            <li className="border-b-2 border-zinc-300 w-full py-4">Home</li>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="about"
+            smooth={true}
+            duration={500}
+            offset={-200}
+          >
+            <li className="border-b-2 border-zinc-300 w-full py-4">About </li>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="support"
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
+            <li className="border-b-2 border-zinc-300 w-full py-4">Support</li>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="platforms"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            <li className="border-b-2 border-zinc-300 w-full py-4">
+              Platforms
+            </li>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="pricing"
+            smooth={true}
+            duration={500}
+            offset={50}
+          >
+            <li className="border-b-2 border-zinc-300 w-full py-4">Pricing</li>
+          </Link>
+
           <div className="py-4 flex flex-col">
             <button className="border-2 px-8 py-3 bg-transparent text-black mb-4">
               Sign In

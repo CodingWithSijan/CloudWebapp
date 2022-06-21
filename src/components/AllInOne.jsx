@@ -3,82 +3,123 @@ import { CheckIcon } from "@heroicons/react/outline";
 const AllInOne = () => {
   return (
     <>
-      <div className="mt-20  w-full h-screen flex flex-col justify-between items-center">
-        <div className="p-5">
-          <div className="text-center mb-10">
-            <p className="text-5xl font-bold">All-In-One Platform</p>
+      <div name="platforms" className="w-full my-32">
+        <div className="max-w-[1240px] mx-auto px-2">
+          <h1 className="text-5xl font-bold text-center">
+            All-In-One Platform
+          </h1>
+          <p className="text-2xl py-8 text-gray-500 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            labore sit ducimus beatae? Debitis dolor voluptatum repellat rerum
+            dolorum excepturi!
+          </p>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+          <div className="flex">
+            <div>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
+              </p>
+            </div>
           </div>
-          <div className="text-center my-8">
-            <p className="text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
-              laborum quam! Laborum quia sunt molestias! Repellendus voluptatum
-              ut distinctio velit sunt neque, sint, aliquid culpa aliquam
-              tenetur voluptatem officiis cupiditate!
-            </p>
+          <div className="flex">
+            <div>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
+              </p>
+            </div>
           </div>
-          <div className="grid grid-cols-2 space-x-4 space-y-4 sm:grid-cols-3">
+          <div className="flex">
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
-              </p>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
             </div>
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
               </p>
             </div>
+          </div>
+          <div className="flex">
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
-              </p>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
             </div>
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
               </p>
             </div>
+          </div>
+          <div className="flex">
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
-              </p>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
             </div>
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
               </p>
             </div>
+          </div>
+          <div className="flex">
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
-              </p>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
             </div>
             <div>
-              <h1>Notifications</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae eos odit totam molestias, repellat saepe
-                consequuntur. Id deserunt impedit ducimus.
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div>
+              <CheckIcon className="w-7 mr-4 text-green-600" />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg">Notification</h3>
+              <p className="text-lg pt-2 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                libero.
               </p>
             </div>
           </div>

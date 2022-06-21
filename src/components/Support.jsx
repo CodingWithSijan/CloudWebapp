@@ -6,7 +6,7 @@ import SupportImage from "../assests/support.jpg";
 const Support = () => {
   return (
     <>
-      <div className="w-full h-screen mt-24">
+      <div name="support" className="w-full mt-24 mb-32 sm:mb-0 ">
         <div className="w-full h-[700px] bg-gray-900/90 absolute">
           <img
             src={SupportImage}
@@ -30,7 +30,7 @@ const Support = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black ">
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black ">
             <div className="bg-white rounded-xl shadow-2xl ">
               <div className="p-8">
                 <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
