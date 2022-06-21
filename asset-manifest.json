@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CodingWithSijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css",
-    "main.js": "/CodingWithSijan.github.io/CloudWebapp/static/js/main.2b0144be.js",
-    "index.html": "/CodingWithSijan.github.io/CloudWebapp/index.html",
-    "main.9fe0dc08.css.map": "/CodingWithSijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css.map",
-    "main.2b0144be.js.map": "/CodingWithSijan.github.io/CloudWebapp/static/js/main.2b0144be.js.map"
+    "main.css": "/codingwithsijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css",
+    "main.js": "/codingwithsijan.github.io/CloudWebapp/static/js/main.2b0144be.js",
+    "index.html": "/codingwithsijan.github.io/CloudWebapp/index.html",
+    "main.9fe0dc08.css.map": "/codingwithsijan.github.io/CloudWebapp/static/css/main.9fe0dc08.css.map",
+    "main.2b0144be.js.map": "/codingwithsijan.github.io/CloudWebapp/static/js/main.2b0144be.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe0dc08.css",
